@@ -65,10 +65,7 @@ export default function ResultsPage() {
                 </CardContent>
             </Card>
 
-            <div className="grid md:grid-cols-2 gap-4">
-                <Button asChild size="lg" variant="outline" className="w-full">
-                    <Link href="/stats">View Model Statistics</Link>
-                </Button>
+            <div className="grid md:grid-cols-1">
                 <Button asChild size="lg" className="w-full">
                     <Link href="/predict">
                         <RefreshCcw className="mr-2 h-4 w-4" /> Start New Assessment
