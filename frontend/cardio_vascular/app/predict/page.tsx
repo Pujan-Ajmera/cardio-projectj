@@ -72,7 +72,7 @@ export default function PredictPage() {
         setError(null)
 
         try {
-            const response = await fetch("https://cardio-project-r62i.onrender.com/", {
+            const response = await fetch("https://cardio-project-r62i.onrender.com/predict", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(values),
